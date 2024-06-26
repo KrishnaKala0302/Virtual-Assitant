@@ -12,7 +12,7 @@ import musiclibrary
 # Initialize recognizer and text-to-speech engine
 r = sr.Recognizer()
 engine = pyttsx3.init()
-newsapi = "4f68545ae12f479f9bc7e3377b3bcf08"
+newsapi = "4f68545ae12f479f9bc7e3377b3bcf0X"
 
 def speak(text):
     engine.say(text)
